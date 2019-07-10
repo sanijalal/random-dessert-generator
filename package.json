@@ -1,0 +1,15 @@
+{
+  "name": "random-dessert-generator",
+  "version": "1.0.0",
+  "description": "Generates random dessert names from a precompiled list in code. No database is used.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dessert",
+    "random"
+  ],
+  "author": "sanijalal",
+  "license": "ISC"
+}
