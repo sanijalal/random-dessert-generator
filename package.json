@@ -4,7 +4,6 @@
   "description": "Generates random dessert names from a precompiled list in code. No database is used.",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon test.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -12,8 +11,5 @@
     "random"
   ],
   "author": "sanijalal",
-  "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^2.0.5"
-  }
+  "license": "ISC"
 }
