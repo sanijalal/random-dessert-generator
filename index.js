@@ -1,5 +1,5 @@
 const desserts = ['cempedak creme', 'cempedak fritters', 'cekodok','cendol','ais kacang','eclair','chocolate','cake','tart', 'muffin', 'brownies', 'cupcake', 'frgál', 'kremrole', 'větrník', 'buchty', 'krapfen']
-const adjectives = ['salty', 'cheesy', 'chocolate', 'caramel', 'butterscotch', 'bbq', 'smoked', 'sweet', 'sugar', 'strawberry', 'berrylicious']
+const adjectives = ['salty', 'cheesy', 'chocolate', 'caramel', 'butterscotch', 'bbq', 'smoked', 'sweet', 'sugar', 'strawberry', 'berrylicious', 'salted egg']
 
 function generateDessert() {
     let randomIndex = Math.floor(Math.random() * (desserts.length - 1))
