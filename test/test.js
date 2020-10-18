@@ -4,13 +4,17 @@ const dessertGenerator = require('../index')
 describe('dessertGenerator', function() {
   describe('generateDessert', function() {
     it('should return a dessert which is a string', function() {
-      assert.strictEqual(typeof dessertGenerator.generateDessert(), 'string')
+      const dessert = dessertGenerator.generateDessert()
+      console.info(dessert)
+      assert.strictEqual(typeof dessert, 'string')
     })
   })
 
   describe('generateYummyDessert', function() {
     it('should return a dessert and adjective which are both string', function() {
-      assert.strictEqual(typeof dessertGenerator.generateDessert(), 'string')
+      const dessert = dessertGenerator.generateYummyDessert()
+      console.info(dessert)
+      assert.strictEqual(typeof dessert, 'string')
     })
   })
 })
