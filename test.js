@@ -1,6 +1,5 @@
-const dessertGenerator = require('./index')
+const dessertGenerator = require('./index');
 
-const dessert = dessertGenerator.generateDessert()
-console.info(dessert)
-
-console.info(dessertGenerator.generateYummyDessert())
+const keyword = 'cempedak';
+console.info(dessertGenerator.generateDessert({keyword}));
+console.info(dessertGenerator.generateYummyDessert());
