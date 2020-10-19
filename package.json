@@ -4,7 +4,7 @@
   "description": "Generates random dessert names from a precompiled list in code. No database is used.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --recursive"
+    "test": "standard && mocha --recursive"
   },
   "keywords": [
     "dessert",
@@ -13,6 +13,7 @@
   "author": "sanijalal",
   "license": "ISC",
   "devDependencies": {
-    "mocha": "^8.2.0"
+    "mocha": "^8.2.0",
+    "standard": "^14.3.4"
   }
 }
