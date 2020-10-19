@@ -1,10 +1,12 @@
+/* eslint-env mocha */
+
 const assert = require('assert')
-const dessertGenerator = require('../index')
+const { generateDessert, generateYummyDessert } = require('../index')
 
 describe('dessertGenerator', () => {
   describe('generateDessert', () => {
     it('should return a dessert which is a string', () => {
-      const dessert = dessertGenerator.generateDessert()
+      const dessert = generateDessert()
       console.info(dessert)
       assert.strictEqual(typeof dessert, 'string')
     })
@@ -12,7 +14,7 @@ describe('dessertGenerator', () => {
 
   describe('generateYummyDessert', () => {
     it('should return a dessert and adjective which are both string', () => {
-      const dessert = dessertGenerator.generateYummyDessert()
+      const dessert = generateYummyDessert()
       console.info(dessert)
       assert.strictEqual(typeof dessert, 'string')
     })
