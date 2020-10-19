@@ -1,6 +1,6 @@
 const utils = require('./helpers/utils');
-
-const { desserts, adjectives } = require('./data/data.js');
+const { desserts } = require('./data/desserts.js');
+const { adjectives } = require('./data/adjectives.js');
 /**
  * Generate a dessert.
  * @return {string} A random dessert name
