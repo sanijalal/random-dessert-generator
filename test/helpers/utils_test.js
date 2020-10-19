@@ -6,7 +6,9 @@ describe('helpers', () => {
     it('should return a randomly index of the array', () => {
         const arr = ['val1', 'val2', 'val3']
         const result = getRandomIndex(arr);
-        assert.ok(result <= arr.length);
+
+        assert.strictEqual(typeof result, 'number')
+        assert.ok(0 <= result && result < arr.length);
     })
   })
 })
