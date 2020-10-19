@@ -1,8 +1,6 @@
 const utils = require('./helpers/utils');
 
-const desserts = ['ais kacang', 'akok', 'apple crumble', 'brownies', 'buchty', 'cake', 'cekodok', 'cempedak creme', 'cempedak fritters', 'cendol', 'chocolate', 'cupcake', 'eclair', 'frgál', 'kek lapis', 'krapfen', 'kremrole', 'muffin', 'tart', 'větrník']
-const adjectives = ['bbq', 'berrylicious', 'butterscotch', 'caramel', 'cheesy', 'chocolate', 'salted egg', 'salty', 'smoked', 'strawberry', 'sugar', 'sweet']
-
+const { desserts, adjectives } = require('./data/data.js');
 /**
  * Generate a dessert.
  * @return {string} A random dessert name
