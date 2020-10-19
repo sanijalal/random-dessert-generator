@@ -1,5 +1,5 @@
-function getRandomIndex(array) {
-    return Math.floor(Math.random() * array.length);
+function getRandomIndex (array) {
+  return Math.floor(Math.random() * array.length)
 }
 
-exports.getRandomIndex = getRandomIndex;
+exports.getRandomIndex = getRandomIndex
