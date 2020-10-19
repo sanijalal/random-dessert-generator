@@ -13,6 +13,12 @@
   "author": "sanijalal",
   "license": "ISC",
   "devDependencies": {
+    "husky": "^4.3.0",
     "mocha": "^8.2.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm test"
+    }
   }
 }
