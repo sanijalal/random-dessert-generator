@@ -5,6 +5,7 @@ exports.desserts = [
   'brownies',
   'buchty',
   'cake',
+  'cheesecake',
   'cekodok',
   'cempedak creme',
   'cempedak fritters',
@@ -17,6 +18,8 @@ exports.desserts = [
   'krapfen',
   'kremrole',
   'muffin',
+  'macaroon',
   'tart',
-  'větrník'
+  'větrník',
+  'waffle'
 ]
