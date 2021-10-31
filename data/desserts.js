@@ -9,6 +9,7 @@ exports.desserts = [
   'cempedak creme',
   'cempedak fritters',
   'cendol',
+  'che mek molek',
   'chocolate',
   'cupcake',
   'eclair',
@@ -17,6 +18,7 @@ exports.desserts = [
   'krapfen',
   'kremrole',
   'muffin',
+  'pisang sira',
   'tart',
   'větrník'
 ]
