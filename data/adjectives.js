@@ -10,5 +10,6 @@ exports.adjectives = [
   'smoked',
   'strawberry',
   'sugar',
-  'sweet'
+  'sweet',
+  'zesty'
 ]
