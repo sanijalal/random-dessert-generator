@@ -14,9 +14,9 @@
   "author": "sanijalal",
   "license": "ISC",
   "devDependencies": {
-    "husky": "7.0.1",
-    "mocha": "9.1.0",
-    "standard": "16.0.3"
+    "husky": "^7.0.4",
+    "mocha": "^9.1.3",
+    "standard": "^16.0.4"
   },
   "husky": {
     "hooks": {
